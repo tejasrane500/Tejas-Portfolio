@@ -58,7 +58,7 @@ export default function Projects() {
         {projects.map((project, idx) => (
           <div
             key={idx}
-            className="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col w-[500px]"
+            className="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col w-full sm:w-[360px] md:w-[420px] lg:w-[500px]"
           >
             <img
               src={project.image}

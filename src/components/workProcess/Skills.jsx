@@ -49,13 +49,13 @@ const Skills = () => {
       {/* Tools & Technologies  */}
       <div className="mt-16 max-w-6xl mx-auto px-6 text-center">
         <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Tools & Technologies</h3>
-        <div className="grid grid-cols-4 small:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
           <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 text-center group-hover:scale-105">
             <div className="text-3xl mb-3 group-hover:animate-bounce">📦</div>
             <h4 className="text-sm font-medium text-gray-800 leading-tight">Git & Github</h4>
           </div>
 
-          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 text-center group-hover:scale-105">
+          <div className="bg-white p-6 px-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 text-center group-hover:scale-105">
             <div className="text-3xl mb-3 group-hover:animate-bounce">💻</div>
             <h4 className="text-sm font-medium text-gray-800 leading-tight">VS Code</h4>
           </div>
@@ -65,7 +65,7 @@ const Skills = () => {
             <h4 className="text-sm font-medium text-gray-800 leading-tight">Responsive Design</h4>
           </div>
 
-          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 text-center group-hover:scale-105">
+          <div className="bg-white p-8 px-10 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 text-center group-hover:scale-105">
             <div className="text-3xl mb-3 group-hover:animate-bounce">📋</div>
             <h4 className="text-sm font-medium text-gray-800 leading-tight">NPM</h4>
           </div>
